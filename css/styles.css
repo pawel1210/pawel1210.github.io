@@ -1,0 +1,285 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    line-height: 1.5;
+    
+}
+
+h3 {
+    
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:  #30475E;
+    
+}
+
+h2 {
+    
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+p {
+    
+    color: #222831;
+    line-height: 3;
+    
+}
+
+a {
+    
+    color: #222831;
+}
+
+a:visited {
+    
+    color: #222831;
+    
+}
+
+/*Navigation Bar*/
+
+.navbar {
+    
+    padding-right: 10%;
+    padding-left: 10%;
+    
+}
+
+
+.nav-item {
+    
+    padding: 0 18px;
+    
+    
+}
+
+.nav-link {
+    
+    font-size: 1.2rem;
+    font-weight: 100;
+    
+}
+
+/*Title Section*/
+
+#title {
+    
+    background-color: #30475E;
+    color: #F05454;
+    padding: 2% 5%;
+    border:  1px solid #30475E;
+    position: relative;
+    
+}
+
+
+.name-photo {
+    
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.title-col {
+    
+    margin: auto;
+}
+
+.big-heading {
+    
+    font-weight: 900;
+    font-size:3rem;
+}
+
+
+.job-title {
+    
+    color: #F05454;
+    padding-bottom: 4%;
+}
+
+.dots {
+    
+    font-size: 3rem;
+    
+}
+
+
+.title-image {
+    
+    width: 65%;
+    border-radius: 100%;
+    margin: auto;
+    
+}
+
+/*About Section*/
+
+#about {
+    
+    background-color: #E8E8E8;
+    margin: auto;
+    padding: 2% 5%;
+    
+}
+
+.about-col {
+    
+    margin-top: 8%;
+}
+
+.skill-row {
+    
+    margin-top: 5%;
+    margin-bottom: 5%;
+    min-height: 15rem;
+    
+}
+
+.bio h2 {
+    
+    text-align: center;
+    color: #30475E;
+    
+}
+
+
+.icon {
+    
+    display: block;
+    color: #F05454;
+    font-size: 4rem;
+    margin-left: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.icon:hover {
+    
+    font-size: 4.5rem;
+    color: #30475E;
+}
+
+
+/* Portfolio Section */
+
+
+#portfolio {
+    
+    background-color: #30475E;
+    color: #E8E8E8;
+    
+}
+
+.carousel-item {
+    
+    padding: 7% 15%;
+    
+}
+
+
+.portfolio-text {
+    
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom:  2rem;
+    
+}
+
+.project-image {
+    
+    margin:  auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    
+}
+
+/*Contact Me Section*/
+
+#contact {
+    
+    background-color: #E8E8E8;
+    color: #30475E;
+    min-height: 29rem;
+    
+}
+
+.contact-div {
+    
+    padding: 7% 15%;
+    position:  relative;
+}
+
+.contact-btn {
+    
+    font-size: 5rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #30475E;
+}
+
+.contact-btn:hover {
+    
+    color: #F05454;
+    font-size: 6rem;
+    
+}
+
+footer p {
+    
+    color:  #222831;
+    
+}
+
+.social-icon {
+    
+    font-size: 2rem;
+    padding: 1%;
+    color: #222831;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    
+}
+
+.social-icon:hover {
+    
+    color: #F05454;
+    
+}
+
+@media screen and (max-width: 768px) {
+    /*  #title {
+        height:  100%;
+        width: 100%;
+    }
+    */
+    .name-photo {
+        
+        display: flex;
+        align-items: center;
+        
+    }
+    
+}
